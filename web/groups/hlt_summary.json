@@ -1,5 +1,5 @@
 {
-  "APVCyclePhaseProducerFromL1TS|APVPhases": "others",
+  "APVCyclePhaseProducerFromL1TS|APVPhases": "pippo",
   "AlcaPCCEventProducer|hltAlcaPixelClusterCounts": "others",
   "AlignmentGoodIdMuonSelector|TkAlGoodIdMuonSelector": "others",
   "AlignmentRelCombIsoMuonSelector|TkAlRelCombIsoMuonSelector": "others",
