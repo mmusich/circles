@@ -3,10 +3,10 @@ name: Validate JSON files
 on:
   push:
     paths:
-      - 'web/groups/**/*.json'
+      - 'web/groups/*.json'
   pull_request:
     paths:
-      - 'web/groups/**/*.json'
+      - 'web/groups/*.json'
 
 jobs:
   validate-json:
@@ -21,7 +21,7 @@ jobs:
 
       - name: Validate JSON files
         run: |
-          for file in web/groups/**/*.json; do
+          for file in web/groups/*.json; do
             echo "Checking $file"
             jq empty "$file"
           done
