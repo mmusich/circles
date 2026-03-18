@@ -9,7 +9,7 @@
   "AlpakaBackendFilter|hltStatusOnGPUFilter": "others",
   "AlpakaBackendProducer@alpaka|hltBackend": "others",
   "AnalyticalTrackSelector|hltIter?HighPtTkMuTrackSelectionHighPurity": "Muons",
-  "AnalyticalTrackSelector|:" "Full track and vertex"
+  "AnalyticalTrackSelector|:" "Full track and vertex",
   "BTagProbabilityToDiscriminator|": "others",
   "BeamSpotDeviceProducer@alpaka|": "others",
   "BeamSpotOnlineProducer|": "others",
