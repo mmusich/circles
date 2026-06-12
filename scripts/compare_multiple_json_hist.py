@@ -174,7 +174,8 @@ def main():
     p.add_argument("json_files", nargs="+", type=Path, help="Timing JSON files (2 or more)")
 
     # Groups & colors
-    p.add_argument("--group", type=Path, required=True, help="Grouping JSON (TypeGlob|LabelGlob -> Package)")
+    p.add_argument("--group", type=Path, required=True,
+                   help="Grouping JSON (TypeGlob|LabelGlob -> Package). Template available at circles/web/groups/hlt.json.")
     p.add_argument("--colors", type=Path, default=None, help="Colors JSON mapping Package -> HEX")
     p.add_argument("--show-unassigned", action="store_true", help="Print failures for unassigned modules.",
     )
