@@ -25,7 +25,7 @@ jobs:
             echo "Checking $file"
             jq empty "$file"
           done
-		  
+
       - name: Validate keys contain '|'
         shell: bash
         run: |
@@ -38,7 +38,7 @@ jobs:
               fi
             done
           done
-		  
+
       - name: Validate color references
         shell: bash
         run: |
