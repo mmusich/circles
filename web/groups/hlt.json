@@ -13,7 +13,7 @@
   "BTagProbabilityToDiscriminator|": "B tagging",
   "BeamSpotDeviceProducer@alpaka|": "HLT",
   "BeamSpotOnlineProducer|": "HLT",
-  "BeamSpotProducer": "HLT",
+  "BeamSpotProducer|": "HLT",
   "BeamSpotToCUDA|": "HLT",
   "BooleanFilter|": "HLT",
   "BooleanProducer|*@cpu": "HLT",
