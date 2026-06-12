@@ -158,7 +158,7 @@ def plot_stacked_bars(
 
     if save:
         save.parent.mkdir(parents=True, exist_ok=True)
-        fig.savefig(save, dpi=150, bbox_inches="tight")
+        fig.savefig(save, dpi=300, bbox_inches="tight")
         print(f"Saved figure to: {save}")
     if show and not save:
         plt.show()
